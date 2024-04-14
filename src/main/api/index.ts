@@ -1,6 +1,13 @@
 import '../config/module-alias';
-import { PersonController } from '@/application/controllers';
+import { PersonController, Speaker } from '@/application/controllers';
 
-const p = new PersonController();
-console.log(p.speak('Douglas'));
-console.log(p.speak());
+
+class Server {
+  init(speaker: Speaker) {
+    console.log(speaker.speak('Douglas'));
+    console.log(speaker.speak());
+  }
+}
+
+const server = new Server();
+server.init(new PersonController())
