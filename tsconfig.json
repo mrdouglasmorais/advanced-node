@@ -16,5 +16,5 @@
     },
     "strict": true,
   },
-  "include": ["src"]
+  "include": ["src", "tests", ".eslintrc.js" , "eslint.config.js" ],
 }

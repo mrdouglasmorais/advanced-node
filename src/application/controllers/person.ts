@@ -1,9 +1,9 @@
 export interface Speaker {
-  speak: (name?: string) => string;
+  speak: (name?: string) => string
 }
 
-export class PersonController implements Speaker{
-  speak( name?: string): string {
-    return `Olá, ${name?.toLocaleUpperCase() || 'fulado'}!`;
+export class PersonController implements Speaker {
+  speak (name?: string): string {
+    return `Olá, ${name?.toLocaleUpperCase() ?? 'fulado'}!`
   }
 }
