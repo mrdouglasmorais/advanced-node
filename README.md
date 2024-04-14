@@ -1,5 +1,5 @@
 # advanced-node
-Node TDD and Solid Patterns
+NodeJS Adavanced TDD, DDD and Solid Patterns
 
 
 ## By: Douglas Morais
