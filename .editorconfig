@@ -23,3 +23,10 @@ insert_final_newline = true
 indent_size = 2
 quote_type = single
 semicolon = always
+
+
+[*.{js,jsx,ts,tsx}]
+quote_type = single
+
+[*.json]
+quote_type = double

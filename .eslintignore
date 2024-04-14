@@ -2,4 +2,4 @@ dist
 buid
 node_modules
 .eslintrc.js
-eslint.config.js
+coverage
