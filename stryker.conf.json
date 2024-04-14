@@ -1,0 +1,9 @@
+{
+  "mutate": ["src/**/*.js"],
+  "testRunner": "jest",
+  "reporters": ["progress", "clear-text", "html"],
+  "coverageAnalysis": "perTest",
+  "jest": {
+    "configFile": "jest.config.js"
+  }
+}
