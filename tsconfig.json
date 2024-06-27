@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "rootDir": "src",
     "target": "ESNext",
     "sourceMap": true,
     "skipLibCheck": true,
@@ -9,12 +8,15 @@
     "module": "CommonJS",
     "moduleResolution": "Node",
     "esModuleInterop": true,
-    "baseUrl": "src",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["*"],
+      "@/*": ["src/*"],
       "@/tests/*": ["tests/*"]
     },
-    "strict": true,
+    "strict": true
   },
-  "include": ["src", "tests", ".eslintrc.js"],
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ]
 }
